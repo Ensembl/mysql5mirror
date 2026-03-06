@@ -1,0 +1,11 @@
+Ensembl
+Copyright 2022-2026 EMBL-European Bioinformatics Institute
+
+This product includes software developed at:
+- EMBL-European Bioinformatics Institute
+
+This project is derived from the mysql4mirror project (https://github.com/Ensembl/mysql4mirror),
+which itself was inspired by Thomas Dressler's (https://github.com/Tommi2Day) repository
+for a MySQL4 docker image (https://github.com/Tommi2Day/mysql4).
+
+Works presented here are derived from that original work.

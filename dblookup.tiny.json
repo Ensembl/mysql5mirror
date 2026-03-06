@@ -1,0 +1,12 @@
+{
+  "homo_sapiens_core_48_36j": {
+    "database": "homo_sapiens_core_48_36j",
+    "path": "/pub/release-48/mysql/homo_sapiens_core_48_36j",
+    "server": "ftp.ensembl.org"
+  },
+  "ensembl_compara_48": {
+    "database": "ensembl_compara_48",
+    "path": "/pub/release-48/mysql/ensembl_compara_48",
+    "server": "ftp.ensembl.org"
+  }
+}
