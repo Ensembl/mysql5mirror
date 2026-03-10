@@ -1,17 +1,16 @@
 # Ensembl MySQL v5.7 mirror
 
-> Dockerised MySQL 5.7 server for hosting Ensembl genomic databases from releases 48 to 116.
+> Dockerised MySQL 5.7 server for hosting Ensembl genomic databases from releases 48 to 115.
 
 This project is derived from [mysql4mirror](https://github.com/Ensembl/mysql4mirror) and uses the [official MySQL 5.7 Docker image](https://hub.docker.com/_/mysql) as its base.
 
 ## Prerequisites: Docker or a compatible runtime
 
-These instructions use `docker` throughout, but any OCI-compatible container runtime will work. If you do not have Docker Desktop installed (or prefer not to use it), the following alternatives are known to work:
+These instructions use `docker` throughout, but any OCI-compatible container runtime will work. If you do not have Docker Desktop installed (or prefer not to use it), the following alternatives should work:
 
 - **[Colima](https://github.com/abiosoft/colima)** -- a lightweight Docker-compatible runtime for macOS and Linux. Install with `brew install colima` and start with `colima start`. Once running, the `docker` CLI works as normal.
 - **[Podman](https://podman.io/)** -- a daemonless container engine. Replace `docker` with `podman` in the commands below (or alias it: `alias docker=podman`).
-- **[Rancher Desktop](https://rancherdesktop.io/)** -- provides both `docker` and `nerdctl` CLI support.
-- **[OrbStack](https://orbstack.dev/)** -- a fast Docker Desktop alternative for macOS.
+- **[Rancher Desktop](https://rancherdesktop.io/)** -- provides `docker` CLI support
 
 All commands below assume the `docker` CLI is available and connected to a running engine.
 
